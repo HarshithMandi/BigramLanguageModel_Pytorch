@@ -261,10 +261,15 @@ context = torch.zeros((1, 1), dtype=torch.long, device=device)
 generated_text = decode(model.generate(context, max_new_tokens=2000)[0].tolist())
 print(generated_text)
 ```
-## 7. Output
-<img src="output.png" alt="output" style="height: 100px; width:100px;"/>
 
+## 7. Output
+
+![Output](output.png)
 
 ## Conclusion
 
 This implementation of a Bigram Language Model using Transformer architecture demonstrates the process of building a language model from scratch in PyTorch. The model can be further refined and expanded for more complex tasks and larger datasets.
+
+## Acknowledgements
+
+This project was inspired by the paper "Attention Is All You Need" and Andrej Karpathy's tutorial.
