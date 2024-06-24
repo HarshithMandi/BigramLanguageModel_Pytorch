@@ -262,7 +262,6 @@ generated_text = decode(model.generate(context, max_new_tokens=2000)[0].tolist()
 print(generated_text)
 ```
 ## 7. Output
-git
 <img src="output.png" alt="output" style="height: 100px; width:100px;"/>
 
 
