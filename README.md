@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a Bigram Language Model using a Transformer architecture in PyTorch. The model is trained on the Tiny Shakespeare dataset to generate text sequences. The following sections provide a detailed walkthrough of the code and its components.
+This project implements a Bigram Language Model using a Transformer architecture in PyTorch. The model is trained on the Wizard of Oz dataset to generate text sequences. The following sections provide a detailed walkthrough of the code and its components.
 
 ## Dependencies
 
